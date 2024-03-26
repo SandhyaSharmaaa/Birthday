@@ -183,3 +183,19 @@ li span {
 #head{
   color: #F64747;
 }
+@media screen and (max-width: 600px) {
+  #head {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+}
+
+ul li {
+  font-size: 16px; /* Default font size */
+}
+
+/* Media query for small screen sizes */
+@media screen and (max-width: 600px) {
+  ul li {
+    font-size: 14px; /* Smaller font size for small screens */
+  }
+}
